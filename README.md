@@ -1,11 +1,18 @@
-## One Problem a Day
+# One Problem a Day
 
 **Problem:** Given a string, return the longest substring without repeating characters.
 
 **Example:**
 
 Input: "abcabcbb"
-Output: 3
+
+&#x20;Output: 3
+
+
+
+Input  : "xxxxyxpppqqq"
+
+Output : 3
 
 **Solution:**
 
@@ -47,3 +54,4 @@ def longest_substring_without_repeating_characters(str1: str) -> int:
       longest_substring = max(longest_substring, right - left)
 
   return longest_substring
+```
